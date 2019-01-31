@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover should render popover 1`] = `
+<div
+  class="vg-popover"
+>
+  <button
+    class="vg-popover__button"
+    title=""
+    type="button"
+  >
+    TEST
+  </button>
+</div>
+`;
+
+exports[`Popover should render popover with tooltip 1`] = `
+<div
+  className="vg-popover"
+>
+  <TooltipComponent
+    text="test"
+    textBottom="John"
+  >
+    <button
+      className="vg-popover__button"
+      disabled={false}
+      onClick={[Function]}
+      title="TEST"
+      type="button"
+    >
+      TEST
+    </button>
+  </TooltipComponent>
+</div>
+`;

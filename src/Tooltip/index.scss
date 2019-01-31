@@ -1,0 +1,19 @@
+@import "../../assets/styles/variables.scss";
+
+.vg-tooltip__hint_text {
+  color: white;
+  display: block;
+  line-height: 20px;
+}
+
+.vg-tooltip__hint_textBottom {
+  color: $button-grey;
+  display: block;
+  line-height: 16px;
+}
+
+.vg-tooltip__hint__list {
+  margin: 0;
+  padding-left: 5px;
+  list-style-type: none;
+}

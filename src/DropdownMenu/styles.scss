@@ -1,0 +1,75 @@
+@import "../../assets/styles/variables.scss";
+
+.vg-dropdown-menu {
+  &__body {
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 160px;
+    margin-top: 8px;
+    padding: 8.5px 0;
+  }
+
+  &__control {
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+
+    &:disabled {
+      cursor: default;
+    }
+
+    &#{&}__icon {
+      &#{&}--active:not([disabled]) {
+        opacity: 0.8;
+      }
+    }
+
+    &#{&}__button {
+      &:hover:not([disabled]),
+      &:active:hover:not([disabled]),
+      &#{&}--active {
+        color: $white !important;
+        background-color: #104883 !important;
+      }
+
+      // TODO {Maksym_Poliakov}: replace with :before
+      img {
+        width: 16px;
+        height: 16px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  &__item {
+    color: $black;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 16px;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    background-color: $white;
+    text-align: left;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &#{&}__disabled {
+      color: $light-grey;
+      cursor: default;
+    }
+
+    &:not(&__disabled):hover {
+      background-color: #eeeff0;
+    }
+  }
+
+  &__loader-container {
+    width: 100%;
+    height: 143px;
+  }
+}
