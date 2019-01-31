@@ -1,0 +1,32 @@
+.vg-popover {
+  position: relative; }
+  .vg-popover:not(:first-of-type) {
+    margin-left: 5px; }
+  .vg-popover__button {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px 6px 5px;
+    border: none;
+    border-radius: 4px;
+    color: #354052;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 16px;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none; }
+    .vg-popover__button:focus {
+      box-shadow: none;
+      outline: none; }
+    .vg-popover__button_active, .vg-popover__button:hover {
+      background-color: rgba(61, 146, 248, 0.2); }
+  .vg-popover__body {
+    width: 540px;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 6px 16px 0 rgba(63, 66, 69, 0.3);
+    line-height: 16px;
+    margin-top: 5px; }

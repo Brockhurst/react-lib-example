@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip should match snapshot 1`] = `
+<TooltipComponent
+  text="test"
+  textBottom="Test Owner"
+>
+  <Tooltip
+    anchorElement="target"
+    content={[Function]}
+    openDelay={10}
+    position="right"
+    showCallout={true}
+  >
+    <div
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+    >
+      <Tooltip
+        anchorElement="target"
+        content={[Function]}
+        openDelay={10}
+        position="right"
+        showCallout={true}
+      />
+      <div>
+        Test
+      </div>
+    </div>
+  </Tooltip>
+</TooltipComponent>
+`;

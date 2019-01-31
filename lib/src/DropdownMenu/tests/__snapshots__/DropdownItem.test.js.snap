@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Item should render correctly 1`] = `
+<button
+  className="vg-dropdown-menu__item"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Dropdown Item
+</button>
+`;
+
+exports[`Dropdown Item should render correctly 2`] = `
+<button
+  className="vg-dropdown-menu__item vg-dropdown-menu__item__disabled"
+  disabled={true}
+  type="button"
+>
+  Dropdown Item
+</button>
+`;

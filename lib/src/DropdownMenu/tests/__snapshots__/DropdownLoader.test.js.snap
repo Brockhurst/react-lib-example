@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownLoader should match snapshot 1`] = `
+<div
+  className="vg-dropdown-menu__loader-container"
+>
+  <div
+    className="k-loading-image"
+  />
+</div>
+`;

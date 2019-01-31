@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:#FFFFFF;}
+	.st2{mask:url(#mask-2);}
+	.st3{fill:#3F4245;}
+</style>
+<title>Icons/16/arrow-60-down</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="IPAD_RGN_VLGN_WEB_Filters_1-1_Filters_Empty_State-Copy-2" transform="translate(-116.000000, -237.000000)">
+		<g id="Icons_x2F_16_x2F_arrow-60-down" transform="translate(112.000000, 232.000000)">
+			<g id="arrow-60-down">
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="4" y="5" width="16" height="16">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="4" y="5" width="16" height="16" id="mask-2">
+				<g class="st0">
+					<polygon id="path-1" class="st1" points="12,16 8,10 16,10 					"/>
+				</g>
+			</mask>
+			<g id="Color-_x2F_-Black" class="st2">
+				<rect id="color" x="4" y="5" class="st1" width="16" height="16"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
